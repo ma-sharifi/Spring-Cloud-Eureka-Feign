@@ -1,3 +1,7 @@
+./mvnw package && java -jar target/eureka-server.jar
+docker build -t  picher/eureka-server .
+
+
 # Read Me First
 The following was discovered as part of building this project:
 
